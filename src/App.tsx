@@ -20,7 +20,7 @@ export function App() {
 
   return (
     <TransactionProvider>
-      <Header onOpenNewTransactionModa={handleOpenNewTransactionModal} />
+      <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
       <Dashboard />
 
       <NewTransactionModal
